@@ -5,6 +5,7 @@ namespace RaceDay.API.Data
 {
     public class ApplicationDbContext : DbContext
     {
+
         public ApplicationDbContext(
             DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -15,6 +16,7 @@ namespace RaceDay.API.Data
         public DbSet<Event> Events => Set<Event>();
         public DbSet<Category> Categories => Set<Category>();
         public DbSet<EventCategory> EventCategories => Set<EventCategory>();
+        public DbSet<Result> Results => Set<Result>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,6 +26,7 @@ namespace RaceDay.API.Data
             modelBuilder.Entity<Event>().ToTable("EVENTS");
             modelBuilder.Entity<Category>().ToTable("CATEGORIES");
             modelBuilder.Entity<EventCategory>().ToTable("EVENTCATEGORIES");
+         
 
             modelBuilder.Entity<Event>()
                 .HasOne<User>()
