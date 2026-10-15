@@ -50,8 +50,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -62,8 +66,7 @@
               "RelativeToolTip": "RaceDay.API\\Models\\Results.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAYwBMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T08:57:39.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-15T08:57:39.752Z"
             },
             {
               "$type": "Document",
@@ -73,7 +76,7 @@
               "RelativeDocumentMoniker": "RaceDay.API\\Controllers\\ResultsController.cs",
               "ToolTip": "C:\\Users\\Student\\source\\repos\\RaceDay.API\\RaceDay.API\\Controllers\\ResultsController.cs",
               "RelativeToolTip": "RaceDay.API\\Controllers\\ResultsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAYwGMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T08:49:27.664Z",
               "EditorCaption": ""
@@ -136,8 +139,7 @@
               "RelativeToolTip": "RaceDay.API\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T10:58:20.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T10:58:20.344Z"
             },
             {
               "$type": "Document",
@@ -174,10 +176,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-10-14T11:13:01.932Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
