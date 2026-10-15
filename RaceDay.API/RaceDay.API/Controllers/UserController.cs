@@ -5,7 +5,7 @@ using RaceDay.API.Models;
 
 namespace RaceDay.API.Controllers
 {
-    [Route(“api/[controller]”)]
+    [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
     {
